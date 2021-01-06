@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>
+            Lessing Down HTML code with JS
+        </title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+
+            body{
+                background-color: palegoldenrod;
+                font-family: sans-serif;
+            }
+
+            #container{
+                width: 800px;
+                height: 400px;
+                margin: 140px 300px;
+            }
+
+            #heading{
+                font-size: 30px;
+                font-weight: 600;
+                width: 100%;
+                padding:10px;
+                color: palegoldenrod;
+                background-color: firebrick;
+                text-align: center;
+            }
+
+            #main{
+                background: rgba(50, 50, 20, 0.3);
+                width: 100%;
+                padding: 10px;
+                padding-left: 50px;
+            }
+
+            #select-item{
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+                background: rgba(50, 20, 20, 3);
+                border: none;
+                display: inline-block;
+                margin-right: 40px;
+            }
+
+            #date, #months, #year{
+                margin: 85px 65px;
+                font-size: 25px;
+                color: palegoldenrod;
+                background: none;
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="heading">Lessing Down HTML code with JS</h1>
+        <div id="main">
+           <div id="select-item">
+               <select id="date"></select>
+           </div> 
+
+           <div id="select-item">
+                <select id="months"></select>
+            </div> 
+
+            <div id="select-item">
+                <select id="year"></select>
+            </div> 
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
